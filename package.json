@@ -4,8 +4,8 @@
   "description": "Learning react",
   "main": "index.js",
   "scripts": {
-    "start":"parcel Inception-01/index.html",
-    "build":"parcel build Inception-01/index.html",
+    "start":"parcel TicTacToe/index.html",
+    "build":"parcel build TicTacToe/index.html",
     "test": "jest"
   },
   "repository": {
