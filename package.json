@@ -1,0 +1,29 @@
+{
+  "name": "react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "App.js",
+  "scripts": {
+    "start": "parcel SearchBar/index.html",
+    "build": "parcel build SearchBar/index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/niwanshu16/React.git"
+  },
+  "author": "Niwanshu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/niwanshu16/React/issues"
+  },
+  "homepage": "https://github.com/niwanshu16/React#readme",
+  "dependencies": {
+    "parcel": "^2.12.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "process": "^0.11.10"
+  }
+}
