@@ -63,3 +63,26 @@ root.render(<>
     {HeadingComponent1()}
     <HeadingComponent></HeadingComponent>
 </>);
+
+const RestaurantComponent = () => (
+    <h1>restaurant</h1>
+);
+//this is react element
+// restaurantComponent we can use inside a <>
+const restaurant = <>  
+    <h1>Restaurant Title</h1>
+    <RestaurantComponent />
+    {RestaurantComponent()}
+    </>
+
+// this is react component
+const Component2 = () => (
+    //we can use Javascript in curly braces {} inside JSX.
+    //react element is just like JS variable, we can use it as curly braces
+    <>
+        {restaurant} 
+        {RestaurantComponent()}
+    </>
+);
+
+root.render(<Component2 />);
